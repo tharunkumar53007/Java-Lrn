@@ -9,7 +9,7 @@ class q6 {
         {
             System.out.println("you need to improve");
         }
-        else if(score>50 && score<70)
+        else if(score>=50 && score<=70)
         {
             System.out.println("Good job!");
         }
