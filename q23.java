@@ -13,12 +13,19 @@ public class q23 {
     String phone=scan.nextLine();
     return phone;
   }
+  String getaddress(){
+    System.out.print("Enter your address : ");
+    String address=scan.nextLine();
+    return address;
+  }
   public static void main(String args[])
   {
     q23 details=new q23();
     String myname=details.getname();
     String phonenumber=details.getphone();
+    String myaddress=details.getaddress();
     System.out.println("Your name is : "+myname);
     System.out.println("Your Phone number is : "+phonenumber);
+    System.out.println("Your Address is : "+myaddress);
   }
 }
