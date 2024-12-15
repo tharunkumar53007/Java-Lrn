@@ -24,6 +24,7 @@ public class q23 {
     String myname=details.getname();
     String phonenumber=details.getphone();
     String myaddress=details.getaddress();
+    System.out.println("------------------------------");
     System.out.println("Your name is : "+myname);
     System.out.println("Your Phone number is : "+phonenumber);
     System.out.println("Your Address is : "+myaddress);
